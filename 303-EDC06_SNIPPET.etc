@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--    Sensor CEM3 Dimmer Rack Config File    -->
+   <Sensor>
+      <Rack_Properties
+      RackNum="3"
+      SystemNum="426"
+      ConfigFileName="303-EDC06"
+      TimeMode="automatic"
+      GMTOffset="-5"
+      SyslogHostIP="10.91.142.12"
+      LoggingVerbosity="Debug">
+      </Rack_Properties>
+      <FTPServer       Enable="enabled"
+      AutoSave="disabled"
+  		Address="10.91.142.12"
+      ConfigPath="/usr/conductor/conductorshare/device/configs/cem3"
+      UpgradePath="/usr/conductor/conductorshare/firmware/configs"
+      Username="etcuser"
+      Password="lights">
+      </FTPServer>
+   </Sensor>
+
+
